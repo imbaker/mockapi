@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MockApi": {
+      "commandName": "Project",
+      "commandLineArgs": "--Port=9095"
+    }
+  }
+}

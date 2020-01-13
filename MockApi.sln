@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.960
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockApi", "MockApi\MockApi.csproj", "{A0742FF8-1881-4D0D-8F56-B219619AFFAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0742FF8-1881-4D0D-8F56-B219619AFFAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0742FF8-1881-4D0D-8F56-B219619AFFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0742FF8-1881-4D0D-8F56-B219619AFFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0742FF8-1881-4D0D-8F56-B219619AFFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F095BA6-9F85-46D5-8E1B-58E87E5C0691}
+	EndGlobalSection
+EndGlobal
