@@ -32,7 +32,7 @@ namespace MockApi
                 StartAdminInterface = true
             });
 
-            server.Given(Request.Create().WithPath("/some/thing").WithParam("name", new ExactMatcher("abc")))
+            server.Given(Request.Create().WithPath("/some/thing").WithParam("name"))
                 .RespondWith(Response.Create().WithStatusCode(201)
                     .WithHeader("Content-Type", "text/plain")
                     .WithBody($"Hello {{{{request.query.name}}}} it's {DateTime.Now}!")
